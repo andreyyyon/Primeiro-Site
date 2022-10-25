@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<main>
+    <head>
+        <meta charset="utf-8">
+        <title>Reaper</title>
+        <style>
+            *{
+                box-sizing: border-box;
+            }
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                margin: 0;
+            }
+            .header {
+                text-align: center;
+                padding: 80px;
+                background-color: purple;
+                color: white;
+            }
+            .header h1{
+                font-size: 40px;
+            }
+            .navbar{
+                background-color: black;
+                overflow: hidden;  
+            }
+            .navbar a{
+                float: left;
+                color: white;
+                display: block;
+                text-align: center;
+                padding: 14px 20px;
+                text-decoration: none;
+            }
+            .navbar a:hover{
+                background-color: white;
+                color: black;
+            }
+            .navbar a.right{
+                float: right;
+            }
+            .row{
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+            }
+            .div-um{
+                -ms-flex: 30%;
+                flex: 30%;
+                background-color: gainsboro;
+                padding: 20px;
+            }
+            .div-dois{
+                -ms-flex: 70%;
+                flex: 70%;
+                padding: 20px;
+            }
+            .footer{
+                padding: 20px;
+                text-align: center;
+                background-color: plum;
+            }
+            .image{
+                background-color: purple;
+                padding: 20px;
+                width: 100%;
+            }
+
+            @media screen and (max-width: 700px){
+                .row{
+                    flex-direction: column;
+                }
+
+                .navbar a{
+                    float: none;
+                    width: 100%;
+                }
+            }
+
+        </style>
+    </head>
+    <body>
+        <!--header-->
+        <div class="header">
+            <h1>My Website</h1>
+            <p>A website made for me.</p>
+        </div>
+        <!--menu-->
+        <div class="navbar">
+            <a href="#">Home</a>
+            <a href="#">Quem sou eu</a>
+            <a href="#">Portifólio</a>
+            <a class="right" href="#">Contatos</a>
+        </div>
+        <!--container-->
+        <div class="row">
+            <div class="div-um">
+                <h2>About me</h2>
+                <h5>Photo of me</h5>
+                <div>Image</div>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                
+                <h3>More text</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                
+                <div class="image" style="height: 60px">Image 01</div><br>
+                <div class="image" style="height: 60px">Image 02</div><br>
+                <div class="image" style="height: 60px">Image 03</div>
+            </div>
+            <div class="div-dois">
+                <h1>TITLE HEADING</h1>
+                <h5>title descripition, 19/10/2022.</h5>
+                <div class="image" style="height: 200px">Image</div>
+                <p>Lorem ipsum dolor sit amet...</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+
+                <h1>TITLE HEADING</h1>
+                <h5>title descripition, 19/10/2022.</h5>
+                <div class="image" style="height: 200px">Image</div>
+                <p>Lorem ipsum dolor sit amet...</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>    
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer">
+            <h2>FOOTER</h2>     
+        </div>
+    </body>
+</main>
