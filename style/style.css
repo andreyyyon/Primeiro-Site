@@ -8,8 +8,8 @@ body{
 .header {
     text-align: center;
     padding: 80px;
-    background-color: purple;
     color: white;
+    background: url("https://static.videezy.com/system/resources/thumbnails/000/042/456/original/Sky-night-rotation-space-background.jpg");
 }
 .header h1{
     font-size: 40px;
@@ -52,12 +52,78 @@ body{
 .footer{
     padding: 20px;
     text-align: center;
-    background-color: plum;
+    background-color: rebeccapurple;
 }
 .image{
-    background-color: purple;
+    background-color: rebeccapurple;
     padding: 20px;
     width: 100%;
+    
+}
+label{
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+}
+.nome{
+    width: 500px;
+    height: 30px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    margin-bottom: 5px;
+}
+.email{
+    width: 500px;
+    height: 30px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    margin-bottom: 5px;
+}
+.telefone{
+    width: 200px;
+    height: 30px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    margin-bottom: 5px;
+}
+.tipoatendimento{
+    width: 200px;
+    height: 30px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    margin-bottom: 5px;
+}
+.informacoes{
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+.mensagem{
+    width: 500px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 2px solid #999;
+    margin-bottom: 5px;
+}
+.btn{
+    margin-left: 204px;
+    width: 200px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: rebeccapurple;
+    color: white;
+    border: 2px solid purple;
+    border-radius: 3px;
+}
+.btn:hover{
+    background-color: white;
+    color: rebeccapurple;
+}
+.perfil{
+    width: 300px;
 }
 
 @media screen and (max-width: 700px){
